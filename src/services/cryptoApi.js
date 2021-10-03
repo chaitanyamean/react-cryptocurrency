@@ -28,6 +28,8 @@ export const cryptoApi = createApi({
         })
     })
 })
+
+console.log('cryptoApi', cryptoApi)
 export const {
     useGetCryptosQuery,
     useGetCryptoDetailsQuery,
